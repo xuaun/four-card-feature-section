@@ -42,6 +42,7 @@ html {
   line-height: var(--text-body-height);
   letter-spacing: var(--text-body-spacing);
   max-width: clamp(31.1rem, 15.8rem + 38vw, 54rem);
+  opacity: 50%;
   margin: 0 auto;
 }
 
@@ -67,6 +68,7 @@ html {
   font-weight: var(--text-card-body-weight);
   line-height: var(--text-card-body-height);
   letter-spacing: var(--text-card-body-spacing);
+  opacity: 50%;
   margin-bottom: 4rem;
 }
 
