@@ -22,7 +22,7 @@ html {
 .page__intro {
   grid-area: intro;
   text-align: center;
-  margin-bottom: clamp(6.4rem, 8.4rem + -2vw, 7.6rem);
+  margin-bottom: calc(clamp(6.4rem, calc(8.4rem + -2vw), 7.6rem) - clamp(2.4rem, calc(1rem + 5vw), 3rem));
 }
 
 .page__header {
