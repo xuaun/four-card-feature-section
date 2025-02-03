@@ -22,7 +22,10 @@ html {
 .page__intro {
   grid-area: intro;
   text-align: center;
-  margin-bottom: calc(clamp(6.4rem, calc(8.4rem + -2vw), 7.6rem) - clamp(2.4rem, calc(1rem + 5vw), 3rem));
+  margin-bottom: calc(
+    clamp(6.4rem, calc(8.4rem + -2vw), 7.6rem) -
+      clamp(2.4rem, calc(1rem + 5vw), 3rem)
+  );
 }
 
 .page__header {
@@ -53,7 +56,8 @@ html {
   border-radius: 0.4rem;
   border: 0;
   width: clamp(31.1rem, 28.5rem + 6.5vw, 35rem);
-  padding: clamp(2.9rem, 2.7rem + 0.5vw, 3rem) clamp(2.9rem, 2.7rem + 0.5vw, 3.2rem);
+  padding: clamp(2.9rem, 2.7rem + 0.5vw, 2.8rem)
+    clamp(2.9rem, 2.7rem + 0.5vw, 3.2rem) clamp(2.9rem, 2.7rem + 0.5vw, 3.2rem);
   box-shadow: 0rem 1.5rem 3rem -1.1rem var(--shadow-color);
 }
 
